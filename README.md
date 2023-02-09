@@ -4,7 +4,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### The challenge
 
-![](design\desktop-design.jpg)
+![](design/desktop-design.jpg)
 
 
 ### Built with
