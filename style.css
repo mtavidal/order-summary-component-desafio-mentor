@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    font-family:'Red Hat Display', sans-serif;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.container {
+    width: 100vw;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+}
+
+#ilustracao{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+}
+
+h2 {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+.plano {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  hsl(225, 100%, 98%);
+    padding: 15px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 18px;
+}
+
+#icone {
+    padding-right: 10px;
+}
+
+#iconeplanopreco {
+    display: flex;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    font-size: 12px;
+    padding: 4px;
+}
+
+h4 {
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+}
+
+a {
+    font-size: 11px;
+    font-weight: 700;
+    color: #3829e0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hsl(276, 77%, 62%);
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botao1 {
+    color: white;
+    align-self: center;
+    background-color: hsl(245, 75%, 52%);
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-weight: 700;
+    box-shadow:  0px 10px 10px 5px hsl(225, 100%, 94%);
+
+}
+
+#botao1:hover {
+    background-color: hsl(276, 77%, 62%);
+}
+
+#botao2 {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    align-self: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+#botao2:hover {
+    color: black;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position:relative;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:375px) {
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+    .card {
+        width: 290px;
+    }
+    .plano {
+        padding: px;
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
